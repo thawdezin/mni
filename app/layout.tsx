@@ -16,6 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <script type="module" src="https://cdn.jsdelivr.net/.../core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/.../core/css/ionic.bundle.css" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
